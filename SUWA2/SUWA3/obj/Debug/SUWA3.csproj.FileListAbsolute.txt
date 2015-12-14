@@ -1,0 +1,5 @@
+c:\Users\srajendran\documents\visual studio 2012\Projects\SUWA2\SUWA3\bin\SUWA3.dll
+c:\Users\srajendran\documents\visual studio 2012\Projects\SUWA2\SUWA3\bin\SUWA3.pdb
+c:\Users\srajendran\documents\visual studio 2012\Projects\SUWA2\SUWA3\obj\Debug\SUWA3.dll
+c:\Users\srajendran\documents\visual studio 2012\Projects\SUWA2\SUWA3\obj\Debug\SUWA3.pdb
+c:\Users\srajendran\documents\visual studio 2012\Projects\SUWA2\SUWA3\obj\Debug\SUWA3.csprojResolveAssemblyReference.cache

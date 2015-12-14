@@ -1,0 +1,5 @@
+C:\Users\srajendran\Documents\Visual Studio 2012\Projects\SUWA2\EggHead\bin\EggHead.dll
+C:\Users\srajendran\Documents\Visual Studio 2012\Projects\SUWA2\EggHead\bin\EggHead.pdb
+C:\Users\srajendran\Documents\Visual Studio 2012\Projects\SUWA2\EggHead\obj\Debug\EggHead.csprojResolveAssemblyReference.cache
+C:\Users\srajendran\Documents\Visual Studio 2012\Projects\SUWA2\EggHead\obj\Debug\EggHead.dll
+C:\Users\srajendran\Documents\Visual Studio 2012\Projects\SUWA2\EggHead\obj\Debug\EggHead.pdb
