@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/site.css" rel="stylesheet" />
+    <title>Todo App</title>
+</head>
+
+<body ng-app="todoApp">
+
+    <div class="container" ng-controller="todoController as todoCtrl" ng-cloak>
+        <h3 class="page-header">To-do App</h3>
+
+        <div class="search-row">
+            <div class="row">
+                <div class="form-group">
+                    <form>
+                        <input type="search" class="form-control input-lg" placeholder="search tasks list.." ng-model="searchText">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <span> {{searchText}}</span>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Tasks</th>
+                        <th>Due on</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody ng-repeat="task in tasks">
+                    <tr>
+                        <td>{{task.description}}</td>
+                        <td>{{task.dueDate | date}}</td>
+                        <td ng-show="!task.status">to be done</td>
+                        <td ng-show="task.status">Completed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pull-right">
+            <button class="btn btn-primary" ng-click="addTask">
+                Add Task
+            </button>
+        </div>
+
+    </div>
+
+
+
+    <script src="../Scripts/Vendor/angular.js"></script>
+    <script src="../todoApp/todoApp.js"></script>
+    <script src="../todoApp/controllers/todoController.js"></script>
+    <script src="../todoApp/services/taskService.js"></script>
+</body>
+</html>
